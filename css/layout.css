@@ -1,0 +1,22 @@
+.menu {
+  display: grid;
+  grid-template-columns: 1rem 1rem 1rem;
+}
+main {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+@media (min-width: 800px) {
+  .grid_4 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10rem;
+  }
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+.btn_1 p {
+  text-align: center;
+}
