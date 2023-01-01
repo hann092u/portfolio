@@ -48,7 +48,10 @@ h1 {
   width: 80px;
   height: 80px;
   z-index: 30;
-  background-color: rgb(255, 255, 255);
+  color: white;
+}
+.brg_menu_button::after {
+  background-color: white;
 }
 .brg_menu_lines,
 .brg_menu_lines::after,
@@ -56,7 +59,7 @@ h1 {
   position: absolute;
   width: 40px;
   height: 5px;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
   border-radius: 40%;
 }
 
@@ -123,6 +126,6 @@ h1 {
   z-index: 10;
 }
 
-brg.brg_menu_active .brg_menu_overlay {
+.brg_menu_active .brg_menu_overlay {
   display: block;
 }
