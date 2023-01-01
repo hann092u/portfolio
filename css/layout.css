@@ -3,7 +3,7 @@
   grid-template-columns: 1rem 1rem 1rem;
 }
 main {
-  max-width: 1500px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 @media (min-width: 800px) {
@@ -12,7 +12,19 @@ main {
     justify-content: space-around;
     margin-bottom: 10rem;
   }
+  .grid_8 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 2rem;
+  }
+  .grid_8 img {
+    object-fit: cover;
+    align-self: stretch;
+    padding: 1rem;
+  }
 }
+
 header {
   display: flex;
   justify-content: space-between;

@@ -6,12 +6,27 @@
 body {
   background-color: black;
 }
-
+header {
+  position: sticky;
+}
 .forside {
   background-image: url(../img/portfolio_forside.svg);
   background-size: 100%;
   background: no-repeat;
 }
+@media (max-width: 500px) {
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .hjem {
+    width: 20%;
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }
+}
+
 img {
   width: 100%;
   height: auto;
@@ -32,19 +47,15 @@ h1 {
   color: white;
   align-items: center;
 }
-.hjem {
-  width: 5%;
-  margin-top: 1rem;
-  margin-left: 1rem;
-}
 
 .brg_menu_button:hover .brg_menu_lines {
   filter: brightness(0.7);
 }
 .brg_menu_button {
-  position: fixed;
-  top: 10px;
-  right: 10px;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  padding-left: 1rem;
   width: 80px;
   height: 80px;
   z-index: 30;
