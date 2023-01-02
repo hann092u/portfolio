@@ -126,7 +126,7 @@ img {
   transform: rotate(-45deg);
 }
 .brg_menu_nav {
-  padding: 80px;
+  padding: 70px;
   position: fixed;
   z-index: 20;
   display: flex;
@@ -168,8 +168,54 @@ img {
   display: block;
 }
 
+ul {
+  list-style: none;
+}
+ul li {
+  padding-left: 25px;
+  padding-top: 15px;
+  font-family: "Chau Philomene One", sans-serif;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: black;
+  letter-spacing: 5px;
+  font-weight: 100;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+li a:hover {
+  text-shadow: 2px 2px #7b7b7b;
+}
 /*footer*/
 
 footer {
   padding: 3rem;
+}
+
+/********** BUTTON **********/
+
+.cta {
+  color: #ffffff;
+  background-color: #000000;
+  border: 3px solid white;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  width: 9rem;
+  margin: 3rem 0;
+  padding: 0.7rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  font-family: "Mada", sans-serif;
+}
+
+.cta:hover {
+  background-color: #ffffff;
+  border: 3px solid rgb(61, 61, 61);
+  color: black;
+  text-shadow: 1px 1px #7b7b7b;
 }

@@ -11,7 +11,7 @@
   /***Tekst***/
   .grid_5_6 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
     gap: 40px;
     margin: 1rem;
     margin-top: 4rem;
@@ -23,7 +23,6 @@
 .slideshow-container {
   width: 100%;
   position: relative;
-  margin-top: 2rem;
 }
 
 /* Hide the images by default */
@@ -36,7 +35,7 @@
 .next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 40%;
   width: auto;
   margin-top: -22px;
   padding: 16px;
