@@ -6,14 +6,44 @@
 body {
   background-color: black;
 }
+
 header {
-  position: sticky;
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  font-family: "Chau Philomene One", sans-serif;
+  font-size: 46px;
+  color: white;
+  margin-top: 2rem;
+}
+h2 {
+  color: white;
+  font-family: "Mada", sans-serif;
+}
+h3 {
+  color: white;
+}
+p {
+  color: white;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.btn_1 p {
+  text-align: center;
 }
 .forside {
   background-image: url(../img/portfolio_forside.svg);
   background-size: 100%;
   background: no-repeat;
 }
+
 @media (max-width: 500px) {
   header {
     display: flex;
@@ -25,19 +55,14 @@ header {
     margin-top: 1rem;
     margin-left: 1rem;
   }
+  h1 {
+    font-size: 40px;
+  }
+}
+.hjem {
+  margin: 1rem;
 }
 
-img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-h1 {
-  font-family: "Chau Philomene One", sans-serif;
-  font-size: 40px;
-  color: white;
-  margin-top: 2rem;
-}
 .btn_1 {
   font-family: "Chau Philomene One", sans-serif;
   font-size: 40px;
@@ -47,6 +72,8 @@ h1 {
   color: white;
   align-items: center;
 }
+
+/************** burgermenu *****************/
 
 .brg_menu_button:hover .brg_menu_lines {
   filter: brightness(0.7);
@@ -139,4 +166,10 @@ h1 {
 
 .brg_menu_active .brg_menu_overlay {
   display: block;
+}
+
+/*footer*/
+
+footer {
+  padding: 3rem;
 }
