@@ -17,7 +17,10 @@
     margin-top: 4rem;
   }
 }
-
+.grid_5_6 {
+  margin-block-start: 4rem;
+  margin-inline: 1rem;
+}
 /****Billeder**/
 /* Slideshow container */
 .slideshow-container {
