@@ -13,23 +13,24 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 40px;
-    margin: 1rem;
-    margin-top: 4rem;
   }
 }
 .grid_5_6 {
-  margin-block-start: 4rem;
-  margin-inline: 1rem;
+  background: rgb(24, 24, 24);
+  padding: 1rem;
+  padding-top: 2rem;
 }
 /****Billeder**/
 /* Slideshow container */
-.slideshow-container {
+.slideshow-container,
+.slideshow-container_2 {
   width: 100%;
   position: relative;
 }
 
 /* Hide the images by default */
-.mySlides {
+.mySlides,
+.mySlides2 {
   display: none;
 }
 
@@ -42,7 +43,7 @@
   width: auto;
   margin-top: -22px;
   padding: 16px;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
@@ -61,6 +62,7 @@
 .prev:hover,
 .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
+  color: white;
 }
 
 /* Caption text */
@@ -84,7 +86,8 @@
 }
 
 /* The dots/bullets/indicators */
-.dot {
+.dot,
+.dot2 {
   cursor: pointer;
   height: 15px;
   width: 15px;
