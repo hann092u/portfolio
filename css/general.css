@@ -207,7 +207,8 @@ footer {
   text-decoration: none;
   display: block;
   width: 9rem;
-  margin: 4rem auto;
+  margin: 1rem auto;
+  margin-top: 3rem;
   padding: 0.7rem 1rem;
   font-size: 1rem;
   cursor: pointer;

@@ -13,12 +13,11 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 40px;
+    margin-block: 3rem;
   }
 }
 .grid_5_6 {
-  background: rgb(24, 24, 24);
   padding: 1rem;
-  padding-top: 2rem;
 }
 /****Billeder**/
 /* Slideshow container */
