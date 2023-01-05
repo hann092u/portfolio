@@ -46,8 +46,10 @@ main {
   }
   .grid_2 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1.5fr 1fr;
     gap: 30px;
     padding: 1rem;
+    margin-top: 5%;
+    border-top: 1px solid white;
   }
 }
