@@ -10,12 +10,14 @@ body {
 header {
   display: flex;
   justify-content: space-between;
+  margin-top: 2rem;
 }
 
 h1 {
   font-family: "Chau Philomene One", sans-serif;
   font-size: 46px;
   color: white;
+  margin-top: 2rem;
 }
 h2 {
   color: white;
@@ -227,4 +229,8 @@ footer {
   border: 3px solid rgb(61, 61, 61);
   color: black;
   text-shadow: 1px 1px #7b7b7b;
+}
+
+.line {
+  padding-block: 2rem;
 }
