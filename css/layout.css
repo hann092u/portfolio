@@ -14,6 +14,21 @@ main {
   .grid_4 {
     margin-left: 35%;
   }
+  #portfolio_bg img {
+    display: none;
+  }
+
+  .link {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    color: white;
+    font-size: 30px;
+  }
+  .links {
+    border: 2px solid white;
+    padding: 2rem;
+    left: 25%;
+  }
 }
 @media (min-width: 600px) {
   .grid_4 {
@@ -66,5 +81,64 @@ main {
     gap: 30px;
     margin-block: 1rem;
     padding: 1rem;
+  }
+
+  /******** Portfolio side ***********/
+  #portfolio_bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 35%;
+    left: 0;
+    background-size: cover;
+  }
+  .link {
+    color: white;
+  }
+  .link span {
+    position: absolute;
+    top: -50px;
+    left: 5%;
+    opacity: 0;
+    transition: 0.5s;
+  }
+
+  .link:hover span {
+    opacity: 1;
+    top: -110px;
+  }
+
+  .punkt1 {
+    position: absolute;
+    top: -3%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+  }
+
+  .punkt2 {
+    position: absolute;
+    top: 22%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+  }
+
+  .punkt3 {
+    position: absolute;
+    top: 13%;
+    left: 46%;
+    transform: translate(-50%, -50%);
+  }
+
+  .punkt4 {
+    position: absolute;
+    top: 35%;
+    left: 61%;
+    transform: translate(-50%, -50%);
+  }
+  .punkt5 {
+    position: absolute;
+    top: 18%;
+    left: 82%;
+    transform: translate(-50%, -50%);
   }
 }
