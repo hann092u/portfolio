@@ -161,4 +161,7 @@ main {
     left: 82%;
     transform: translate(-50%, -50%);
   }
+  .footer {
+    display: none;
+  }
 }
