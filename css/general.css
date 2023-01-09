@@ -18,16 +18,19 @@ h1 {
   font-size: 46px;
   color: white;
   margin-top: 2rem;
+  text-align: center;
 }
 h2 {
   color: white;
   font-family: "Mada", sans-serif;
-  margin-top: 2rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
 }
 h3 {
   color: white;
   padding-block: 20px;
   font-family: "Mada", sans-serif;
+  margin-left: 1rem;
 }
 h4 {
   font-family: "Chau Philomene One", sans-serif;
@@ -35,9 +38,17 @@ h4 {
   color: white;
   margin-left: 2rem;
 }
+h5 {
+  color: white;
+  padding-block: 20px;
+  font-family: "Mada", sans-serif;
+  margin-left: 1rem;
+  font-size: 16px;
+}
 p {
   color: white;
   font-family: "Hind Vadodara", sans-serif;
+  margin-left: 1rem;
 }
 
 img {
@@ -77,7 +88,7 @@ a:hover {
     margin-left: 1rem;
   }
   h1 {
-    font-size: 38px;
+    font-size: 34px;
   }
 }
 .hjem {
@@ -101,7 +112,7 @@ a:hover {
 }
 .brg_menu_button {
   position: absolute;
-  top: 2rem;
+  top: 1rem;
   right: 1rem;
   padding-left: 1rem;
   width: 80px;

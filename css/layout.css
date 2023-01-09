@@ -17,7 +17,9 @@ main {
   #portfolio_bg img {
     display: none;
   }
-
+  .grid_2 {
+    margin: 3rem;
+  }
   .link {
     margin-top: 2rem;
     margin-left: 2rem;
@@ -28,6 +30,12 @@ main {
     border: 2px solid white;
     padding: 2rem;
     left: 25%;
+  }
+  .grid_5_6 {
+    margin: 2rem;
+  }
+  .text1 {
+    margin-bottom: 2rem;
   }
 }
 @media (min-width: 600px) {
@@ -67,14 +75,7 @@ main {
     margin-top: 5%;
     border-top: 1px solid white;
   }
-  .grid_1_1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 30px;
-    padding: 1rem;
-    margin-top: 5%;
-    border-top: 1px solid white;
-  }
+
   .grid_3_3 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -82,7 +83,26 @@ main {
     margin-block: 1rem;
     padding: 1rem;
   }
-
+  .grid_2_2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 30px;
+    margin-inline: 3rem;
+    margin-top: 3rem;
+    padding: 2rem;
+    background-color: rgb(35, 35, 35);
+    border: 1px solid white;
+  }
+  .grid_cv {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    background-color: rgb(35, 35, 35);
+    padding: 2rem;
+    margin-inline: 3rem;
+    margin-top: 3rem;
+    border: 1px solid white;
+  }
   /******** Portfolio side ***********/
   #portfolio_bg {
     width: 100%;

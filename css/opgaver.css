@@ -13,7 +13,6 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 40px;
-    margin-block: 3rem;
   }
 }
 .grid_5_6 {
