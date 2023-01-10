@@ -83,6 +83,12 @@ main {
     margin-block: 1rem;
     padding: 1rem;
   }
+  .grid_1_1 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 30px;
+    padding: 1rem;
+  }
   .grid_2_2 {
     display: grid;
     grid-template-columns: 1fr 2fr;
