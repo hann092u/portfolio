@@ -34,7 +34,7 @@
 .next {
   cursor: pointer;
   position: absolute;
-  top: 43%;
+  top: 45%;
   width: auto;
   margin-top: -22px;
   padding: 16px;
@@ -59,7 +59,36 @@
   background-color: rgba(0, 0, 0, 0.8);
   color: white;
 }
+/* Next & previous buttons 2 */
+.prev2,
+.next2 {
+  cursor: pointer;
+  position: absolute;
+  top: 25%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  z-index: 1;
+}
 
+/* Position the "next button" to the right 2 */
+.next2 {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through 2*/
+.prev2:hover,
+.next2:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
 /* Caption text */
 .text {
   color: #f2f2f2;
