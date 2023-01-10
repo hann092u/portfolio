@@ -242,7 +242,7 @@ footer {
   font-family: "Mada", sans-serif;
 }
 
-a.cta:hover {
+.cta:hover a {
   background-color: #ffffff;
   border: 3px solid rgb(61, 61, 61);
   color: black;

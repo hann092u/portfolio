@@ -83,6 +83,9 @@ main {
     margin-block: 1rem;
     padding: 1rem;
   }
+  .grid_3_3 p {
+    margin-left: 0;
+  }
   .grid_1_1 {
     display: grid;
     grid-template-columns: 1fr 2fr;
