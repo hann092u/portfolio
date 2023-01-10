@@ -91,6 +91,7 @@ main {
     grid-template-columns: 1fr 2fr;
     gap: 30px;
     padding: 1rem;
+    border-top: 1px solid white;
   }
   .grid_2_2 {
     display: grid;
